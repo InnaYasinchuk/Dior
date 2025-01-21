@@ -1,0 +1,85 @@
+.about {
+margin-bottom: 150px;
+overflow: hidden;
+  
+  &__inner {
+    padding-left: 200px;
+  }
+
+  &__title {
+    max-width: 184px;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.34;
+    margin-bottom: 20px;
+  }
+
+    &__textbox {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  
+
+  &__text {
+    flex-basis: 387px;
+    line-height: 1.2;
+  }
+
+  &__text p{
+    margin-bottom: 15px;
+  }
+
+
+  &__text--bold {
+    font-weight: 700;
+  }
+
+ 
+  &__slider {
+    width: 1600px;
+    padding-left: 200px;
+    margin-left: -200px;
+    padding-bottom: 20px;
+  }
+
+  &__item-title {
+    margin-bottom: 20px;
+  }
+
+  
+
+  // .about__btn
+
+  &__btn {
+  }
+}
+
+.about__arrow{
+  margin-left: -198px;
+}
+
+
+
+
+
+
+
+.container {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.container-arrow {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}

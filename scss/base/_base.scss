@@ -1,0 +1,32 @@
+body{
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: $mainColor;
+}
+
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  color: $btnColor;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding: 20px 54px;
+  border: 1px solid $btnColor;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #fff;
+    background-color: $btnColor;
+  }
+}
+
+
