@@ -1,7 +1,7 @@
 .about {
-margin-bottom: 150px;
-overflow: hidden;
-  
+  margin-bottom: 100px;
+  overflow: hidden;
+
   &__inner {
     padding-left: 200px;
   }
@@ -16,32 +16,28 @@ overflow: hidden;
     margin-bottom: 20px;
   }
 
-    &__textbox {
+  &__textbox {
     margin-bottom: 150px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
 
-  
-
   &__text {
     flex-basis: 387px;
     line-height: 1.2;
   }
 
-  &__text p{
+  &__text p {
     margin-bottom: 15px;
   }
-
 
   &__text--bold {
     font-weight: 700;
   }
 
- 
   &__slider {
-    width: 1600px;
+    width: 1800px;
     padding-left: 200px;
     margin-left: -200px;
     padding-bottom: 20px;
@@ -51,35 +47,15 @@ overflow: hidden;
     margin-bottom: 20px;
   }
 
-  
-
-  // .about__btn
-
-  &__btn {
+  .about__btn{
+    padding: 22px 134px;
   }
 }
 
-.about__arrow{
+.about .swiper-wrapper {
+  margin-bottom: 10px;
+}
+
+.about__arrow {
   margin-left: -198px;
-}
-
-
-
-
-
-
-
-.container {
-}
-.swiper {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-.container-arrow {
-}
-.swiper-button-prev {
-}
-.swiper-button-next {
 }
