@@ -1,0 +1,91 @@
+.footer {
+  background-color: #c4a9cd;
+  padding: 66px 0 100px;
+
+  &__top {
+    margin-bottom: 70px;
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__items {
+    flex-basis: 387px;
+  }
+
+  &__item + &__item {
+    margin-top: 70px;
+  }
+
+  &__item-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__item-form {
+    position: relative;
+  }
+
+  &__item-input {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: $mainColor;
+    width: 100%;
+    display: block;
+    padding: 10px 60px 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+  }
+
+  &__item-input::placeholder {
+    color: $blackColor;
+    opacity: 0.4;
+    font-size: 12px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+  }
+
+  &__item-btn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  &__item-list li {
+    padding-top: 10px;
+  }
+
+  &__social-list {
+    margin-right: 105px;
+    margin-left: 10px;
+    align-self: flex-end;
+  }
+
+  &__social-item + &__social-item {
+    margin-top: 20px;
+  }
+
+  &__social-item svg path {
+    transition: all 0.3 ease;
+  }
+
+  &__social-item svg:hover path {
+    fill: $btnColor;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 105px;
+  }
+
+  &__nav-list {
+    display: flex;
+    gap: 20px;
+  }
+}

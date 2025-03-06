@@ -15,6 +15,13 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
 body {
   font-family: "Inter", serif;
   font-weight: 400;
@@ -291,4 +298,103 @@ body {
 .products__item-price {
   font-family: "Playfair Display", serif;
   font-size: 32px;
+}
+
+.video {
+  margin-bottom: 150px;
+}
+.video__box {
+  margin-left: auto;
+  max-width: 997px;
+  min-height: 600px;
+  background-image: url(./../../images/video-bgr.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #c4a9cd;
+  padding: 66px 0 100px;
+}
+.footer__top {
+  margin-bottom: 70px;
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+}
+.footer__logo {
+  margin-right: 10px;
+}
+.footer__items {
+  flex-basis: 387px;
+}
+.footer__item + .footer__item {
+  margin-top: 70px;
+}
+.footer__item-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.footer__item-form {
+  position: relative;
+}
+.footer__item-input {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  color: #1B1B1B;
+  width: 100%;
+  display: block;
+  padding: 10px 60px 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.footer__item-input::-moz-placeholder {
+  color: #000000;
+  opacity: 0.4;
+  font-size: 12px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+}
+.footer__item-input::placeholder {
+  color: #000000;
+  opacity: 0.4;
+  font-size: 12px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+}
+.footer__item-btn {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.footer__item-list li {
+  padding-top: 10px;
+}
+.footer__social-list {
+  margin-right: 105px;
+  margin-left: 10px;
+  align-self: flex-end;
+}
+.footer__social-item + .footer__social-item {
+  margin-top: 20px;
+}
+.footer__social-item svg path {
+  transition: all 0.3 ease;
+}
+.footer__social-item svg:hover path {
+  fill: #7449BB;
+}
+.footer__nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 105px;
+}
+.footer__nav-list {
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */
